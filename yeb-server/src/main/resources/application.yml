@@ -22,8 +22,8 @@ spring:
     port: 6379
 
   rabbitmq:
-    username: city
-    password: spring
+    username: root
+    password: root
     host: localhost
     port: 5672
     # 消息确认回调
