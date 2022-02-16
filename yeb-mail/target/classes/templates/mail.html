@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.themeleaf.org">
+    <head>
+        <meta charset="UTF-8">
+        <title>入职欢迎邮件</title>
+    </head>
+
+    <body>
+        欢迎 <span th:text="${name}"></span>加入City大家庭，您的入职信息如下：
+        <table border="1">
+            <tr>
+                <td>姓名</td>
+                <td th:text="${name}"></td>
+            </tr>
+            <tr>
+                <td>职位</td>
+                <td th:text="${posName}"></td>
+            </tr>
+            <tr>
+                <td>职称</td>
+                <td th:text="${jobLevelName}"></td>
+            </tr>
+            <tr>
+                <td>部门</td>
+                <td th:text="${depName}"></td>
+            </tr>
+        </table>
+    </body>
+</html>
