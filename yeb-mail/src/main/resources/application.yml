@@ -8,16 +8,16 @@ spring:
     # 协议
     protocol: smtp
     # 授权码
-    password: llrpbloddmvpdacc
+    # password:
     # 编码格式
     default-encoding: UTF-8
     # 邮箱地址
-    username: 3494525791@qq.com
+    # username:
     # 端口
     port: 25
 
   rabbitmq:
-    username: city
-    password: spring
-    host: 106.54.183.43
+    username: root
+    password: root
+    host: localhost
     port: 5672
